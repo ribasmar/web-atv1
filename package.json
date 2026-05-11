@@ -1,0 +1,26 @@
+{
+  "name": "web-atv1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev H:\\web\\web-atv1 --webpack",
+    "build": "next build H:\\web\\web-atv1",
+    "start": "next start H:\\web\\web-atv1",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
